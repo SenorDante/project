@@ -39,16 +39,22 @@ h1 {
   width: 320px;
   margin: 0 auto;
 }
+.card a:not(.my__profile):not(.buyer):not(.smile) {
+  border-top: 2px solid #2A3D4826;
+  padding: 20px 0 20px 0;
+  width: 320px;
+  margin: 0 auto;
+}
 .card span {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: #1C294D;
 }
-.card > div:nth-last-child(1) span{
+.card > a:nth-last-child(1) span{
   color: #FF3347;
 }
-.card > div:nth-child(2) span{
+.card > a:nth-child(2) span{
   font-weight: 500;
   color: #FC6E1D;
 }
@@ -112,7 +118,7 @@ h2  {
   height: 50px;
   margin: 19px auto 0 auto;
 }
-.container div:not(.personal__data) {
+.container a:not(.personal__data) {
   margin: auto 30px auto 0;
   color: #55646D;
   font-size: 14px;
@@ -165,7 +171,7 @@ input {
   content: "*";
   color: red;
 }
-.additional__phone span {
+.additional__phone label {
   color: #959EA4;
   font-size: 14px;
   font-weight: 500;
@@ -209,7 +215,7 @@ input {
 .middle__name {
   margin: 15px 0 0 45px;
 }
-.birthday span {
+.birthday label {
   color: #959EA4;
   font-size: 14px;
   font-weight: 500;
